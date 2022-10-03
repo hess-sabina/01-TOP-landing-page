@@ -69,12 +69,18 @@ You can view the full assignment [here](https://www.theodinproject.com/lessons/f
 
 ## Gallery
 
-▶️ <a href="https://" target="_blank">View Live Demo</a>
+▶️ <a href="https://hess-sabina.github.io/01-TOP-landing-page/" target="_blank">View Live Demo</a>
 
 #### Home page
 
+![Image of Project](https://github.com/hess-sabina/01-TOP-landing-page/blob/main/img/homepage.png?raw=true)
+
 #### Content section
 
+![Image of Project](https://github.com/hess-sabina/01-TOP-landing-page/blob/main/img/content.png?raw=true)
+
 #### Footer section
+
+![Image of Project](https://github.com/hess-sabina/01-TOP-landing-page/blob/main/img/footer.png?raw=true)
 
 
