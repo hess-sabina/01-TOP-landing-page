@@ -203,3 +203,47 @@ ul {
     margin-top:-40px;
     margin-left:520px;
 }
+
+/*SIGN UP SECTION*/
+
+.signupcontainer {
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    align-items:center;
+    height:150px;
+    width:1080px;
+    margin-top:120px;
+    margin-bottom:120px;
+    background-color: #3882F6;
+    border-radius:10px;
+}
+
+.calltoaction h3 {
+    font-size:22px;
+    font-weight:1000;
+    color:#E5E7EB;
+}
+
+.calltoaction p {
+    font-size:18px;
+    color:#E5E7EB;
+    margin-top:-25px;
+}
+
+.ctabutton {
+    background-color:#3882F6;
+    color:#F9FAF8;
+    font-size:15px;
+    border-radius:5px;
+    border-color:#E5E7EB;
+    border-style:solid;
+    width:100px;
+    height:30px;
+    cursor:pointer;
+}
+
+.ctabutton:hover {
+    color:#3882F6;
+    background-color:#FFFFFF;
+}
