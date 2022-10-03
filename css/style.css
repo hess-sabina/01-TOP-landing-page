@@ -142,3 +142,39 @@ ul {
   background:#1f2947;
   }
   
+/*BLUE CONTAINER*/
+
+.bluecontainertitle {
+    font-size:36px;
+    color:#1F2937;
+    text-align:center;
+}
+
+.bluecontainers {
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    margin-bottom:150px;
+    flex-wrap:wrap;
+}
+
+.bluecontainer {
+    width:200px;
+    height:200px;
+    padding:20px;
+}
+
+.bluebox {
+    width:160px;
+    height: 160px;
+    border-radius:10px;
+    border-color:#3882F6;
+    border-style:solid;
+}
+
+.bluetext {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:18px;
+    text-align:center;
+    color: #1F2937;
+}
