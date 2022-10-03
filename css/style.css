@@ -178,3 +178,28 @@ ul {
     text-align:center;
     color: #1F2937;
 }
+
+/*QUOTE SECTION*/
+
+.quotesection {
+    background:#E5E7EB;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    height:400px;
+}
+
+.quote {
+    font-size:36px;
+    display:flex;
+    justify-content:center;
+    font-style:italic;
+}
+
+.author {
+    font-size:22px;
+    font-weight:bold;
+    margin-top:-40px;
+    margin-left:520px;
+}
