@@ -247,3 +247,21 @@ ul {
     color:#3882F6;
     background-color:#FFFFFF;
 }
+
+/*FOOTER SECTION*/
+
+footer {
+    background:#1F2947;
+    color:#FFFFFF;
+    font-size:18px;
+    height:120px;
+   
+}
+
+.footercontent {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:120px;
+}
+
