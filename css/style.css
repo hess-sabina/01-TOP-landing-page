@@ -14,11 +14,131 @@
     display:block;
 }
 
-.headercontainer, .welcome, .bluecontainersection, .quote, .signupsection, .footercontent {
+.headercontainer, .welcome, .bluecontainersection, .quote, .signupsection, .footercontent{
     width:100%;
-    max-width:1090px;
-    margin-left: auto;
-    margin-right: auto;
+    max-width: 1090px;
+    margin-left:auto;
+    margin-right:auto;
+    }
+
+/*HEADER SECTION*/
+
+.headercontainer {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding-top:20px;
+    flex-wrap:wrap;
 }
 
-/*GENERAL*/
+header {
+    background:#1F2947;
+    height:150px;
+}
+
+.logo {
+    color:#F9FAF8;
+    font-size:24px;
+}
+
+.links {
+    display:flex;
+}
+
+.links a:hover {
+    color:#D3D3D3;
+}
+
+a {
+    margin-left: 20px;
+    color:#FFFFFF;
+    text-decoration:none;
+}
+
+ul {
+    list-style:none;
+}
+
+/*WELCOME SECTION*/
+
+
+.picture {
+    display:block;
+  }
+  
+  img {
+    display:block;
+    width:100%;
+    height:auto;
+  }
+  
+  .welcome-area a {
+    text-decoration:none;
+    color:#000000;
+  }
+  
+  .main {
+    flex:1;
+  }
+  
+  .welcome-area {
+    display:flex;
+    flex-direction:row-reverse;
+    flex-basis:50%;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    padding-bottom:40px;
+    gap:70px;
+  }
+  
+  .welcome-area .picture {
+    flex-basis:50%;
+  }
+  
+  .welcome .text h1 {
+    font-size:48px;
+    font-weight:bolder;
+    color:#f9fAf8;
+    margin-top:46px;
+  }
+  
+  .welcome .text p {
+    font-size:18px;
+    color:#E5E7EB;
+    margin-top:-30px;
+  }
+  
+  .welcome .text a {
+    background-color:#3882F6;
+    color:#FFFFFF;
+    font-size:18px;
+    font-weight:bold;
+    padding:7px 20px;
+    border-radius:6%;
+    display:inline-block;
+  }
+  
+  .button {
+    display:block;
+    color:#FFFFFF;
+    background:#3882f6;
+    border-radius:5px;
+    border:none;
+    padding:8px 29px;
+    cursor:pointer;
+  }
+  
+  .button:hover {
+    color: #3882F6;
+    background-color:#FFFFFF;
+    border-radius:5px;
+  }
+  
+  .welcome .text {
+  margin-top:-50px;
+  }
+  
+  .welcomesection {
+  background:#1f2947;
+  }
+  
